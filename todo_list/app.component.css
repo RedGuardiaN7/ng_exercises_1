@@ -1,0 +1,43 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+div {
+    display: flex;
+    
+    justify-content: center;
+}
+
+input{
+    width: 250px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+button{
+    width: 80px;
+    font-size: 18px;
+    background-color: rgba(221, 221, 221, 0.479);
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li{
+    margin-top: 15px;
+    padding: 10px;
+    border-width: 2px 0px 2px 0px;
+    border-color: rgb(136, 136, 136);
+    border-style: solid;
+    font-size: 18px;
+}
+

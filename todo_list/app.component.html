@@ -1,0 +1,13 @@
+
+<h1>To-do list</h1>
+<div>
+<input id="submit">
+
+<button (click)="appendElement()">ADD</button>
+</div>
+
+<div class="list">
+  <ul>
+    <li *ngFor="let element of elements">{{ element }}</li>
+  </ul>
+</div>
